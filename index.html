@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Piano</title>
+</head>
+<body>
+<div class = "container">
+    <div class="white-keys">
+    <kbd class="piano-key" id="keyA" onkeydown="check(this.id)">A</kbd>
+    <kbd class="piano-key" id="keyS" onclick="check(this.id)">S</kbd>
+    <kbd class="piano-key" id="keyD" onclick="check(this.id)">D</kbd>
+    <kbd class="piano-key" id="keyF" onclick="check(this.id)">F</kbd>
+    <kbd class="piano-key" id="keyG" onclick="check(this.id)">G</kbd>
+    <kbd class="piano-key" id="keyH" onclick="check(this.id)">H</kbd>
+    <kbd class="piano-key" id="keyJ" onclick="check(this.id)">J</kbd>
+    </div>
+    <div class="black-keys">
+        <kbd class="piano-key" id="keyW" onkeydown="check(this.id)">W</kbd>
+        <kbd class="piano-key" id="keyE" onclick="check(this.id)">E</kbd>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <kbd class="piano-key" id="keyT" onclick="check(this.id)">T</kbd>
+        <kbd class="piano-key" id="keyY" onclick="check(this.id)">Y</kbd>
+        <kbd class="piano-key" id="keyU" onclick="check(this.id)">U</kbd>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
