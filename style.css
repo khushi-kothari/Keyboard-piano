@@ -80,24 +80,21 @@ h4 {
 
 @media screen and (max-width: 480px) {
   * {
-    font-size: 1.5rem;
-  }
-  .sub-container {
-    margin: auto 0;
+    font-size: medium;
   }
   .white-keys kbd {
-    padding-top: 240px;
-    padding-bottom: 40px;
-    width: 110px;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    width: 35px;
   }
   .black-keys {
-    width: 620px;
-    margin: 0px 90px;
+    width: 215px;
+    margin: 0px 22px;
   }
 
   .black-keys kbd {
-    padding-top: 120px;
-    padding-bottom: 40px;
-    width: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 23px;
   }
 }
