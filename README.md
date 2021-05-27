@@ -1,3 +1,5 @@
-### Keyboard-Piano
-<a href="https://keyboard-piano-by-khushi.vercel.app/">Live Demo</a>
-<img src="piano.png">
+# Keyboard-Piano
+
+![Keyboard-Piano](piano.png?raw=true "Keyboard-Piano")
+
+### <a href="https://keyboard-piano-by-khushi.vercel.app/">LIVE DEMO</a>
