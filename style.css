@@ -80,7 +80,7 @@ h4 {
 
 @media screen and (max-width: 480px) {
   * {
-    font-size: medium;
+    font-size: x-small;
   }
   .white-keys kbd {
     padding-top: 110px;
