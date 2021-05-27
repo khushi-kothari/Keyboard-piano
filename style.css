@@ -77,3 +77,24 @@ h4 {
     0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
   background: linear-gradient(to right, #444 0%, #222 100%);
 }
+
+@media screen and (max-width: 480px) {
+  * {
+    font-size: large;
+  }
+  .white-keys kbd {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    width: 35px;
+  }
+  .black-keys {
+    width: 215px;
+    margin: 0px 22px;
+  }
+
+  .black-keys kbd {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 23px;
+  }
+}
